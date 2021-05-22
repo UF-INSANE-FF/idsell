@@ -1,0 +1,81 @@
+/* Created by Saksham sah */
+
+
+
+input:focus{
+  outline: 0;
+  outline-style: none;
+  outline-color: transparent;
+}
+body {
+  font-size: 15pt;
+  background: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.shell{
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+h1{
+  color: #FBFBFB;
+  font-weight: 20;
+  letter-spacing: 1px;
+}
+#line{
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 10px;
+}
+p input{
+  display: block;
+  margin: 9px 0;
+  border-radius: 5px;
+  line-height: 20px;
+  width: 280px;
+  border-style: none;
+  padding: 4px;
+  background: transparent;
+  color: white;
+  transition: 4s;
+}
+.submit{
+  display: inline;
+  margin: 10px;
+  border-style: none;
+  border-radius: 12px 1px;
+  line-height: 20px;
+  padding: 4px;
+  width: 30%;
+  border: 2px solid #ffffff;
+  background: transparent;
+  color: white;
+  font-weight: 500;
+}
+p input:hover{
+  background: linear-gradient(45deg, #008BFF,#7AC3FF);
+  box-shadow: 0px 0px 2px 2px #0080FF;
+}
+input:hover::placeholder {
+  color: #ffffff;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+  background: white;
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px;
+  padding:6px;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 1px;
+}
